@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="container">
+        <canvas id="snake" width="608" height="608"></canvas>
+        <div class="container2">
+            <div class="level">
+                <div> <label for="cars">Choose a level:</label>
+                    <select name="level" id="level">
+                        <option value="level1">level 1</option>
+                        <option value="level2">level 2</option>
+                        <option value="level3">level 3</option>
+                        <option value="level4">level 4</option>
+                        <option value="level5">level 5</option>
+                        <option value="level6">level 6</option>
+                        <option value="level7">level 7</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-success btn-size" id="submit">submit</button>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary btn-size" id="reset">reset</button>
+                </div>
+                <div> <h1 id="bestscore"></h1></div>
+                        
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="snake.js"></script>
+
+</html>
